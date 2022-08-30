@@ -1,14 +1,28 @@
-.container1{
-    background-color: white;
-}
-.title{
-    font-size: 1.21875rem;
+.title {
+    font-size: 19.5px;
     color: #495057;
     font-weight: 600;
     line-height: 1.2;
     font-family: 'Be Vietnam Pro';
-    font-style:sans-serif;
+    font-style: sans-serif;
 }
-.container-fluid{
-    padding: 0px !important;
+
+.card-header:first-child {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.card-footer:last-child {
+    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+
+.card-footer {
+    padding: 1.25rem 1.25rem;
+    background-color: #fff;
+    border-top: 1px solid #e9e9ef;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
