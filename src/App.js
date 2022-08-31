@@ -2,8 +2,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ConfigureAdapters from './pages/configureAdapters';
-import Adapters from './pages/configureAdapters/Adapters';
+import ConfigureAdapters from './pages/Adapters/configureAdaptersData';
+import Adapters from './pages/Adapters';
 function App() {
   return (
     <BrowserRouter>

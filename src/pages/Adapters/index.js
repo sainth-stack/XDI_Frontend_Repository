@@ -1,9 +1,9 @@
 import React from 'react'
-import CardWithIcon from '../../../components/CardWithIcon'
-import Header from '../../../components/Header/header'
-import InputsCard from '../../../components/InputsCard'
+import CardWithIcon from '../../components/CardWithIcon'
+import Header from '../../components/Header/header'
+import InputsCard from '../../components/InputsCard'
 import { useParams } from "react-router-dom";
-import { configurData } from '../configureAdaptersData';
+import { configurData } from './configureAdaptersData';
 export default function Adapters() {
     let { id } = useParams();
     const finalData=configurData.filter((item)=>item.id === id)
