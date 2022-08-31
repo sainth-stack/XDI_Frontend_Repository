@@ -50,7 +50,7 @@ export const configurData=[
      },
      {
         headerName:'Outage Management System',
-        icon:distributedIcon,
+        icon:outageIcon,
         selectInputsData:{
          vendor:vendor1,
          version:version1,
