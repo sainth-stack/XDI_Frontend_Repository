@@ -4,12 +4,13 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ConfigureAdapters from './pages/Adapters/configureAdaptersData';
 import Adapters from './pages/Adapters';
+import CardOuter from './pages/Card';
 function App() {
   return (
     <BrowserRouter>
     <Routes>
       <Route path="/configureAdapters/:id" element={<Adapters />}/>
-        {/* <Route path="/metered" element={<MeterHeadendSystems />} /> */}
+        <Route path="/card" element={<CardOuter />} />
     </Routes>
   </BrowserRouter>
   );
